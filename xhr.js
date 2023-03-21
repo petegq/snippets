@@ -6,6 +6,6 @@ function listener() {
 
 const xhr = new XMLHttpRequest();
 xhr.addEventListener("load", listener);
-xhr.open("GET", "http://www.example.org/example.txt");
+xhr.open("GET", "http://www.example.org/");
 xhr.send();
 
