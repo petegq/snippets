@@ -1,4 +1,5 @@
-import https from "https";
+// import https from "https";
+var https = require("https");
 
 const options = {
   hostname: "example.org",
