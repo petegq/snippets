@@ -1,10 +1,10 @@
 const word = "String"
 const map = Array.prototype.map
 
-const hasVowels = map.call(word, eachLetter => {
+const someVowels = map.call(word, eachLetter => {
     return /[aeiou]/.test(eachLetter)
 }).some(vowel => vowel === true)
 
-console.log(isVowel)
+console.log(someVowels)
 // Output: true
 
